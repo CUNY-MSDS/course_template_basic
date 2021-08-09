@@ -1,0 +1,70 @@
+---
+title: "Basic Course Template CUNY SPS Master's of Data Science"
+output: github_document
+date: "`r paste(params$semester, params$year)`"
+geometry: margin=0.75in
+editor_options: 
+  chunk_output_type: console
+params:
+  semester: "Fall"
+  year: "2021"
+---
+
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE, error=FALSE, results='hide'}
+# Setup code
+
+```
+
+**Instructor Name:** INSTUCTOR NAME  
+**Instructor Email:** [EMAIL](mailto:EMAIL)  
+**Class Meetup:** TBD
+**Office Hours:** Friday 12pm to 1pm & by appointment  
+**Degree Program:** M.S. in Data Science  
+**Credits:** 3 graduate credits  
+**Prerequisites:** None  
+**Type of Course:** Required course  
+
+### Course Description
+
+### Course Learning Outcomes:
+
+By then end of the course, students should be able to:
+
+* Learn some new Data Science skills
+
+### Program Learning Outcomes addressed by the course:
+
+
+### Grading
+
+* Homework (X%)
+* Labs (X%)
+* Project (X%)
+* Participation (X%)
+
+```{r, child='includes/grade_distribution.md'}
+```
+
+### Schedule
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
+source('R/build_schedule.R')
+build_schedule('Schedule.csv', year = params$year, semester = params$semester)
+```
+
+
+
+
+```{r, child='includes/accessibility.md'}
+```
+
+```{r, child='includes/online_etiquette.md'}
+```
+
+```{r, child='includes/academic_integrity.md'}
+```
+
+```{r, child='includes/support_services.md'}
+```
