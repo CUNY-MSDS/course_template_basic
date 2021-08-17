@@ -1,25 +1,23 @@
 ---
 title: "Basic Course Template CUNY SPS Master's of Data Science"
 output: github_document
-date: "`r paste(params$semester, params$year)`"
 geometry: margin=0.75in
 editor_options: 
   chunk_output_type: console
-params:
-  semester: "Fall"
-  year: "2021"
+always_allow_html: true
 ---
 
 
 ```{r setup, echo=FALSE, warning=FALSE, message=FALSE, error=FALSE, results='hide'}
 # Setup code
-
+semester <- "Fall"
+year <- 2021
 ```
 
 **Instructor Name:** INSTUCTOR NAME  
 **Instructor Email:** [EMAIL](mailto:EMAIL)  
 **Class Meetup:** TBD
-**Office Hours:** Friday 12pm to 1pm & by appointment  
+**Office Hours:** by appointment  
 **Degree Program:** M.S. in Data Science  
 **Credits:** 3 graduate credits  
 **Prerequisites:** None  
@@ -38,20 +36,33 @@ By then end of the course, students should be able to:
 
 ### Grading
 
-* Homework (X%)
-* Labs (X%)
-* Project (X%)
+* [Homework](#homework) (X%)
+* Labs(#labs) (X%)
+* [Project](/project/project.md) (X%)
 * Participation (X%)
 
 ```{r, child='includes/grade_distribution.md'}
 ```
+
+#### Homework {#homework}
+
+1. [Homework 1](homework/Homework1.pdf) ([template](homework/Homework1.Rmd))
+
+#### Labs {#labs}
+
+1. [Lab 1](labs/Lab1/Lab1_intro_to_r.pdf) ([template](/labs/Lab1/Lab1_intro_to_r.Rmd))
+
+#### Project
+
+
+
 
 ### Schedule
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, error=FALSE, results='asis'}
 source('R/build_schedule.R')
-build_schedule('Schedule.csv', year = params$year, semester = params$semester)
+build_schedule('Schedule.csv', year = year, semester = semester)
 ```
 
 

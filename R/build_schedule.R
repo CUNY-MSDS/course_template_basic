@@ -6,6 +6,7 @@ library(xtable)
 #' Build the schedule (as a table) in either HTML or PDF.
 #'
 build_schedule <- function(infile, year, semester,
+						   basedir = '',
 						   cols = c('Dates', 'Topic')) {
 	tab <- NULL
 
@@ -20,7 +21,7 @@ build_schedule <- function(infile, year, semester,
 		stop(paste0(infile, ' must contain the following columns: Week, Duration, and Topic'))
 	}
 
-	schedule <- readxl::read_excel(paste0('../Schedules/', year, '-', semester, '.xlsx'))
+	schedule <- readxl::read_excel(paste0(basedir, year, '-', semester, '.xlsx'))
 	course_schedule$End_Week <- course_schedule$Week + (course_schedule$Duration - 1)
 	course_schedule <- merge(course_schedule, schedule[,c('Week', 'Start')],
 							 by = 'Week', all.x = TRUE)

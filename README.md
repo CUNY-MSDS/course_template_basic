@@ -1,11 +1,9 @@
 Basic Course Template CUNY SPS Master’s of Data Science
 ================
-Fall 2021
 
 **Instructor Name:** INSTUCTOR NAME  
 **Instructor Email:** <EMAIL>  
-**Class Meetup:** TBD **Office Hours:** Friday 12pm to 1pm & by
-appointment  
+**Class Meetup:** TBD **Office Hours:** by appointment  
 **Degree Program:** M.S. in Data Science  
 **Credits:** 3 graduate credits  
 **Prerequisites:** None  
@@ -23,9 +21,9 @@ By then end of the course, students should be able to:
 
 ### Grading
 
--   Homework (X%)
--   Labs (X%)
--   Project (X%)
+-   [Homework](#homework) (X%)
+-   Labs(\#labs) (X%)
+-   [Project](/project/project.md) (X%)
 -   Participation (X%)
 
 #### Grade Distribution
@@ -41,7 +39,146 @@ By then end of the course, students should be able to:
 | Poor                                       |      C       | 70 - 76.9 |  2  |
 | Failure                                    |      F       |  &lt; 70  |  0  |
 
+#### Homework
+
+1.  [Homework 1](homework/Homework1.pdf)
+    ([template](homework/Homework1.Rmd))
+
+#### Labs
+
+1.  [Lab 1](labs/Lab1/Lab1_intro_to_r.pdf)
+    ([template](/labs/Lab1/Lab1_intro_to_r.Rmd))
+
+#### Project
+
 ### Schedule
+
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Dates
+</th>
+<th style="text-align:left;">
+Topic
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Aug-25 to Sep-05
+</td>
+<td style="text-align:left;">
+Week 1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sep-06 to Sep-12
+</td>
+<td style="text-align:left;">
+Week 2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sep-13 to Sep-19
+</td>
+<td style="text-align:left;">
+Week 3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sep-20 to Oct-03
+</td>
+<td style="text-align:left;">
+Week 4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sep-27 to Oct-03
+</td>
+<td style="text-align:left;">
+Week 5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Oct-04 to Oct-10
+</td>
+<td style="text-align:left;">
+Week 6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Oct-11 to Oct-17
+</td>
+<td style="text-align:left;">
+Week 7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Oct-18 to Oct-24
+</td>
+<td style="text-align:left;">
+Week 8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Oct-25 to Oct-31
+</td>
+<td style="text-align:left;">
+Week 9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nov-01 to Nov-07
+</td>
+<td style="text-align:left;">
+Week 10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nov-08 to Nov-14
+</td>
+<td style="text-align:left;">
+Week 11
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nov-15 to Nov-28
+</td>
+<td style="text-align:left;">
+Week 12
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nov-29 to Dec-05
+</td>
+<td style="text-align:left;">
+Week 13
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dec-06 to Dec-13
+</td>
+<td style="text-align:left;">
+Week 14
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Accessibility and Accommodations
 

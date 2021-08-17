@@ -1,0 +1,14 @@
+---
+title: "Homework 1"
+author: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+What is the answer to life the universe and everything?
+
+
